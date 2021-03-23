@@ -33,6 +33,7 @@ function App() {
           "&sl=" +
           shlokId
         }
+    alt="Shloka"
       />
       <div className="count">
         <h3>Current Chapter : {chapterId}</h3>
