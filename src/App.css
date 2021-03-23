@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #f8fffb;
+}
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-self: center;
+  flex-direction: column;
+}
+.count {
+  display: flex;
+}
+.count h3 {
+  margin: 1rem;
+  color: #4f4141;
+}
+.btn {
+  background-color: transparent;
+  border: 0.1rem solid #9453dd;
+  color: #9453dd;
+  transition: all 0.3s ease-in-out;
+  padding: 0.5rem;
+  font-size: 1.1rem;
+  margin-left: 0.3rem;
+  margin-right: 0.3rem;
+  border-radius: 20rem;
+  outline: none;
+}
+
+.btn-2 {
+  color: #188734;
+  border-color: #188734;
+}
+.btn-3 {
+  color: #fb8d50;
+  border-color: #fb8d50;
+}
+.btn-4 {
+  color: #0806a5;
+  border-color: #0806a5;
+}
+.btn-1:hover {
+  background-color: #9453dd;
+  color: white;
+}
+.btn-2:hover {
+  background-color: #188734;
+  color: white;
+}
+.btn-3:hover {
+  background-color: #fb8d50;
+  color: white;
+}
+.btn-4:hover {
+  background-color: #0806a5;
+  color: white;
+}
+
+/*?RESPONSIVENESS*/
+@media (max-width: 900px) {
+  img {
+    width: 98vw;
+    height: auto;
+  }
+}
+@media (max-width: 577px) {
+  img {
+    width: 90vw;
+    height: auto;
+  }
+}
+@media (max-width: 485px) {
+  img {
+    width: 90vw;
+    height: 70vh;
+  }
+}
